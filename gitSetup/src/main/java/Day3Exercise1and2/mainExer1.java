@@ -7,9 +7,18 @@ public class mainExer1 {
 		Bicycle bike = new Bicycle();
 		Tricycle trike = new Tricycle();
 		
+//		Cycle uni1 = (Cycle) uni;
+//		Cycle bike1 = (Cycle) bike;
+//		Cycle trike1 = (Cycle) trike;
+
 		uni.ride();
 		bike.ride();
 		trike.ride();
+		
+		
+		uni.ride(new Unicycle());
+		bike.ride(new Bicycle());
+		trike.ride(new Tricycle());
 	}
 
 }

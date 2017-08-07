@@ -22,7 +22,7 @@ public class Tank3 {
 
 	protected void finalize() {
 		if(1 > waterlevel) {
-			System.out.println("Tank is empty garbage collected");
+			System.out.println("Tank is empty");
 		}
 			
 		
